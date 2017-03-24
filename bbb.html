@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <title>Banner</title>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+
+</head>
+
+<body>
+ <img id='img' src="http://www.freelogovectors.net/wp-content/uploads/2015/06/fox4.png">
+ <img id='img2' src="https://static.designmynight.com/uploads/2015/01/dub-jam-main-pic-optimised.jpg">
+
+ <script type="text/javascript">
+
+ var image = document.getElementById('img');
+ var img2 = document.getElementById('img2');
+ image.style.opacity = 0;
+ image.style.opacity = 0;
+ TweenLite.to(image, 2, {
+   opacity: 1
+ });
+ TweenLite.to(image, 0.5, {
+   opacity: 0,
+   delay: 2.5
+ });
+
+ function startImg1() {
+    var tl = new TimelineMax({
+      paused: false
+    });
+    tl.to(img2, 2, {
+        opacity: 1,
+        scale: 1.8
+      })
+      .to(img2, 0.5, {
+        opacity: 0,
+        scale: 1
+      });
+  }
+  setTimeout(startImg1, 2000);
+
+ </script>
+</body>
+
+</html>
