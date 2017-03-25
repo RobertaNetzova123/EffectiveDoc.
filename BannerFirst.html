@@ -1,0 +1,56 @@
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+
+
+<div id='bg' height="298px" style="position: relative">
+	<img id='tues-image' height="298px" src="http://www.elsys-bg.org/wp-content/themes/elsys/images/bg/rotate.php">
+	<img id='tues-image-grey' height="298px" style="position: absolute; visibility: hidden;" src="http://i1383.photobucket.com/albums/ah303/xXCrazyVoopyXx/tues_blackwhite_zps0ilw2q1e.jpg">
+	<img id='grunge-effect' height="298px" width="100%" style="position: absolute; visibility: hidden;" src="https://designshack.net/wp-content/uploads/imagetreatments-texture3.png">
+	<img id='nula' style="position: absolute; visibility: hidden;" src="https://i.imgsafe.org/69e0fec10d.png">
+	<img id='nula1' style="position: absolute; visibility: hidden;" src="https://i.imgsafe.org/69e0fec10d.png">
+
+</div>
+
+<script type="text/javascript">
+
+	window.onload = function(){
+
+
+
+		var rainingPhrase = document.getElementById('nula');
+		var rainingPhrase2 = document.getElementById('nula1');
+
+		nula.style.visibility = 'visible';
+		nula1.style.visibility = 'visible';
+
+		var tuesImgGrey = document.getElementById('tues-image-grey');
+		tuesImgGrey.style.visibility = 'visible';
+		tuesImgGrey.style.opacity = 0;
+		tuesImgGrey.style.top = '0px';
+		tuesImgGrey.style.left = '0px';
+		var grunge = document.getElementById('grunge-effect');
+		grunge.style.visibility = 'visible';
+		grunge.style.top = '0px';
+		grunge.style.left = '0px';
+		grunge.style.opacity = 0;
+
+		var tl1 = new TimelineMax();
+
+		tl1.add(TweenMax.to(tuesImgGrey, 3, {
+			opacity: 1
+		}));
+		tl1.add(TweenMax.to(grunge, 1, {
+			opacity: 1,
+			delay: 3
+		}));
+		
+
+			var tl2 = new TimelineMax();
+
+			tl2.set(rainingPhrase, {bottom: 348, scale: 0.13}).to(rainingPhrase, 2, {bottom:0, ease: Power3.easeOut}).set(rainingPhrase2, {bottom: 288, scale: 0.13}).to(rainingPhrase2, 3, {bottom:10, ease: Power4.easeOut});
+	
+
+
+	}
+
+</script>
