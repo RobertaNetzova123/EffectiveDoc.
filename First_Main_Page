@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> ELSYS </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	
+
+</head>
+<body>
+	
+	<nav class="navbar navbar-inverse" style="text-align:center">
+			<ul class="nav navbar-nav" style="text-align:center">
+					<li><h4 style="font-size:150%;color:#FFFFFF">-----------------------------------------------------------------------------</h4>
+
+					<li><a href="kraino1.html" style="color:orange">Училище</a></li>
+
+					<li><a href="kraino2.html">Защо ТУЕС?</a></li>
+					
+					<li><a href="kraino7.html">Прием</a></li>
+
+					<li><a href="kraino3.html">Съобщения</a></li>
+
+					<li><a href="kraino4.html">Блок</a></li>
+
+					<li><a href="kraino5.html">АЗТУЕС</a></li>
+
+		
+				</ul>
+			</nav>
+
+</body>
+
+
+
+
+
