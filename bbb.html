@@ -63,43 +63,41 @@
 			</form> -->
 			<!-- <div style="clear: both; padding-top: 5px;"></div> -->
 		</div>
-		<div  id='bg' height="298" >
-			<img id='img' src="http://www.freelogovectors.net/wp-content/uploads/2015/06/fox4.png">
+		<div  id='bg' height="298px" >
+			<img id='img'  height="310px" src="http://i1383.photobucket.com/albums/ah303/xXCrazyVoopyXx/tues_blackwhite_zps0ilw2q1e.jpg">
 
-			<img id='img2' src="https://static.designmynight.com/uploads/2015/01/dub-jam-main-pic-optimised.jpg"> 
+			<!-- <img id='img2' src="https://static.designmynight.com/uploads/2015/01/dub-jam-main-pic-optimised.jpg">  -->
 
 		</div>
 
 		<script type="text/javascript">
+			
 			var image = document.getElementById('img');
-			var image = document.getElementById('img');
-			var img2 = document.getElementById('img2');
+			// var img2 = document.getElementById('img2');
+		
 			image.style.opacity = 0;
-			img2.style.opacity = 0;
-			image.style.width = "200px";
+			// img2.style.opacity = 0;
+			// image.style.height = "298px";
+			// img2.style.height = "298px";
 
-			TweenLite.to(image, 2, {
-				opacity: 1,
-				width: 200
+			TweenMax.to(image, 10, {
+				opacity: 1
 			});
-			TweenLite.to(image, 0.5, {
-				opacity: 0,
-				delay: 2.5
-			});
-			function startImg1() {
-				var tl = new TimelineMax({
-					paused: false
-				});
-				tl.to(img2, 2, {
-					opacity: 1,
-					height: 300
-				})
-				.to(img2, 0.5, {
-					opacity: 0,
+			// 			function startImg1() {
+			// 	var tl = new TimelineMax({
+			// 		paused: false
+			// 	});
+			// 	tl.to(img2, 2, {
+			// 		opacity: 1
+			// 	})
+			// 	.to(img2, 0.5, {
+			// 		opacity: 0,
+			// 		delay: 2.5
 
-				});
-			}
-			setTimeout(startImg1, 2000);
+			// 	});
+			// }
+			
+			
 		</script>
 	</canvas>
 
