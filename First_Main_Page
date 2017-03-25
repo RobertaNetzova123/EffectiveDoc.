@@ -3,34 +3,143 @@
 <head>
 	<title> ELSYS </title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-	
+	<style type="text/css">
+	.navbar .navbar-nav {
+	    display: inline-block;
+	    float: none;
+	}
 
+	.navbar .navbar-collapse {
+	    text-align: center;
+	}
+
+
+	.dropbtn {
+    background-color: #800000;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    height: 60px;
+ 	width: 200px;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 50px 50px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 20px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color:}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:  #262626;
+}
+
+svg {
+	background-color: orange;
+	width: 100%;
+	height: 60%;
+}
+
+	</style>
 </head>
 <body>
-	
-	<nav class="navbar navbar-inverse" style="text-align:center">
-			<ul class="nav navbar-nav" style="text-align:center">
-					<li><h4 style="font-size:150%;color:#FFFFFF">-----------------------------------------------------------------------------</h4>
 
-					<li><a href="kraino1.html" style="color:orange">Училище</a></li>
+	<nav class="navbar navbar-inverse" role="navigation">
+      	<div class="collapse navbar-collapse navbar-ex1-collapse">
+	        <ul class="nav navbar-nav">
+				<li><h4 style="font-size:150%;color:#FFFFFF"></h4>
+				<li><a href="kraino1.html" style="color:orange">Училище</a></li>
+				<li><a href="kraino2.html">Защо ТУЕС?</a></li>
+				<li><a href="kraino7.html">Прием</a></li>
+				<li><a href="kraino3.html">Съобщения</a></li>
+				<li><a href="kraino4.html">Блок</a></li>
+				<li><a href="kraino5.html">АЗТУЕС</a></li>
+	        </ul>
+      	</div>
+    </nav>
 
-					<li><a href="kraino2.html">Защо ТУЕС?</a></li>
-					
-					<li><a href="kraino7.html">Прием</a></li>
+ <div class="dropdown">
+  <button class="dropbtn">Обучение</button>
+  <div class="dropdown-content">
+    <a href="http://www.elsys-bg.org/school/education/">Образование</a>
+    <a href="http://www.elsys-bg.org/school/cisco/">CISCO академия</a>
+    <a href="http://www.elsys-bg.org/school/robotics/">Роботика</a>
+  </div>
+</div>
 
-					<li><a href="kraino3.html">Съобщения</a></li>
+<div class="dropdown">
+  <button class="dropbtn">Съобщения</button>
+  <div class="dropdown-content">
+    <a href="http://www.elsys-bg.org/blog/article/i-engineer-march-2016/">„Аз, инженерът“ – Предстоящо събитие за любителите на технологиите</a>
+    <a href="http://www.elsys-bg.org/blog/article/hacktues/">HackTUES</a>
+    <a href="http://www.elsys-bg.org/blog/article/subd_exam_discussion/">Разговор за изпитите по СУБД на 12-ти клас на 22 април</a>
+  </div>
+</div>
 
-					<li><a href="kraino4.html">Блок</a></li>
+ <div class="dropdown">
+  <button class="dropbtn">Статии</button>
+  <div class="dropdown-content">
+    <a href="http://www.elsys-bg.org/blog/article/sports-fest-19-05-2016/">Спортен празник - 19.05.2016</a>
+    <a href="http://www.elsys-bg.org/blog/article/sendaway-tues-tues-2016-graduatio/">Още едно цветно завършване – изпращане на випуск 2016</a>
+    <a href="http://www.elsys-bg.org/blog/article/tues-in-myouth-may-2016/">ТУЕС завладява сферата на мобилните приложения</a>
+  </div>
+</div>
 
-					<li><a href="kraino5.html">АЗТУЕС</a></li>
 
-		
-				</ul>
-			</nav>
+
+<div class="dropdown">
+  <button class="dropbtn">Награди</button>
+  <div class="dropdown-content">
+    <a href="http://www.elsys-bg.org/blog/article/students-take-the-first-places-in-national-competition-in-computer-networks/">ТУЕС-арите грабнаха призовите места на Националното състезание по компютърни мрежи</a>
+    <a href="http://www.elsys-bg.org/blog/article/students-from-tues-went-to-top-10-on-the-national-championship-for-computer-networks/">Ученици от ТУЕС в топ 10 на националното състезание по компютърни мрежи</a>
+    <a href="http://www.elsys-bg.org/blog/article/first-try-third-plac%D0%B5/">Футболистите на ТУЕС печелят почетното трето място</a>
+  </div>
+</div>
+<!-- <img src="2.png" alt="Cinque Terre" width="200" height="200" style="padding: 200px 0 0 30px" align="middle"> -->
+
+
+
+<div class="dropdown">
+  <button class="dropbtn">Проекти</button>
+  <div class="dropdown-content">
+    <a href="http://www.elsys-bg.org/school/knork/">KNORK</a>
+    <a href="http://www.elsys-bg.org/school/oprr-2014-2020/">ОПРР 2014-2020</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">За нас</button>
+  <div class="dropdown-content">
+    <a href="http://www.elsys-bg.org/school/friends/">Приятели</a>
+    <a href="http://www.elsys-bg.org/school/contact/">Контакти</a>
+    <a href="http://www.elsys-bg.org/school/history-and-traditions/">История и традиции</a>
+  </div>
+</div>
 
 </body>
-
-
-
-
-
