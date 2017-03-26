@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> ELSYS </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body class="background">
+
+	<nav class="navbar navbar-inverse" role="navigation" style="margin:0">
+      	<div class="collapse navbar-collapse navbar-ex1-collapse">
+	        <ul class="nav navbar-nav">
+				<li><h4 style="font-size:150%;color:#FFFFFF"></h4>
+				<li><a href="mainpage.html" style="color:orange">Училище</a></li>
+				<li><a href="kraino2.html">Защо ТУЕС?</a></li>
+				<li><a href="kraino7.html">Прием</a></li>
+				<li><a href="kraino3.html">Съобщения</a></li>
+				<li><a href="kraino4.html">Блог</a></li>
+				<li><a href="kraino5.html">АЗТУЕС</a></li>
+	        </ul>
+      	</div>
+    </nav>
+<div class="background">
+ <div class="dropdown" >
+  <button class="dropbtn">Обучение</button>
+  <div class="dropdown-content">
+    <a href="obrazovanie.html">Образование</a>
+    <a href="http://www.elsys-bg.org/school/cisco/">CISCO академия</a>
+    <a href="http://www.elsys-bg.org/school/robotics/">Роботика</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">Съобщения</button>
+  <div class="dropdown-content">
+    <a href="http://www.elsys-bg.org/blog/article/i-engineer-march-2016/">„Аз, инженерът“ – Предстоящо събитие за любителите на технологиите</a>
+    <a href="http://www.elsys-bg.org/blog/article/hacktues/">HackTUES</a>
+    <a href="http://www.elsys-bg.org/blog/article/subd_exam_discussion/">Разговор за изпитите по СУБД на 12-ти клас на 22 април</a>
+  </div>
+</div>
+
+ <div class="dropdown">
+  <button class="dropbtn">Статии</button>
+  <div class="dropdown-content">
+    <a href="statii_sporten_praznik.html">Спортен празник - 19.05.2016</a>
+    <a href="http://www.elsys-bg.org/blog/article/sendaway-tues-tues-2016-graduatio/">Още едно цветно завършване – изпращане на випуск 2016</a>
+    <a href="http://www.elsys-bg.org/blog/article/tues-in-myouth-may-2016/">ТУЕС завладява сферата на мобилните приложения</a>
+  </div>
+</div>
+
+
+
+<div class="dropdown" style="">
+  <button class="dropbtn">Награди</button>
+  <div class="dropdown-content">
+    <a href="http://www.elsys-bg.org/blog/article/students-take-the-first-places-in-national-competition-in-computer-networks/">ТУЕС-арите грабнаха призовите места на Националното състезание по компютърни мрежи</a>
+    <a href="http://www.elsys-bg.org/blog/article/students-from-tues-went-to-top-10-on-the-national-championship-for-computer-networks/">Ученици от ТУЕС в топ 10 на националното състезание по компютърни мрежи</a>
+    <a href="http://www.elsys-bg.org/blog/article/first-try-third-plac%D0%B5/">Футболистите на ТУЕС печелят почетното трето място</a>
+  </div>
+</div>
+<!-- <img src="2.png" alt="Cinque Terre" width="200" height="200" style="padding: 200px 0 0 30px" align="middle"> -->
+
+
+
+<div class="dropdown">
+  <button class="dropbtn">Проекти</button>
+  <div class="dropdown-content">
+    <a href="knork.html">KNORK</a>
+    <a href="http://www.elsys-bg.org/school/oprr-2014-2020/">ОПРР 2014-2020</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">За нас</button>
+  <div class="dropdown-content">
+    <a href="http://www.elsys-bg.org/school/friends/">Приятели</a>
+    <a href="http://www.elsys-bg.org/school/contact/">Контакти</a>
+    <a href="http://www.elsys-bg.org/school/history-and-traditions/">История и традиции</a>
+  </div>
+</div>
+</div>
+
+
+<h1 style="text-align:center;font-size:400%; padding: 65px 250px 15px 250px; letter-spacing: 19px;text-shadow: 3px 2px #800000;color: black"><i><strong>KNORK</strong></i></h1>
+<p style="text-align:justify;font-size:13pt;padding: 10px 325px 20px 325px">Проектът KNORK (Promoting Knowledge Work Practices in Education)  се основава на разработването на педагогически  модели и технологии за подпомагане на съвместни практики в областта на обучението с помощта  на високотехнологични среди. Фокусът е върху подкрепата на преподаватели от висшето и средно образование за насърчаване на практики, свързани със съвместно създаване на знания на обучаемите.</p>
+<p style="text-align:justify;font-size:13pt;padding: 10px 325px 20px 325px">Идеята е да се използва «триалогичен  подход» като средство за промяна с цел да се подпомогнат преподавателите към по-систематично включване на нови технологии и творчески методи на преподаване, насочени към работа със знания и необходимите за целта  компетенции в цифровите технологии. Насърчава се широкото използване на модерни онлайн учебни платформи, облачни инструменти за сътрудничество и социален софтуер и взаимно обогатяващи се практики между образователните нива, както и между образователните институции и професионалните организации.</p>
+<p style="text-align:justify;font-size:13pt;padding: 10px 325px 20px 325px">Разработените модели и поддържащи технологии ще се въвеждат и експериментират в образователни институции от средното и висше образование в България, Финландия, Италия и Швеция. В проекта са включени 9 партньори от университети и средни училища от Европа като ТУ-София – ФЕТТ и Технологично училище „Елекронни системи“ към ТУ-София (ФЕТТ) са основни и активни участници.</p>
+<p style="text-align:justify;font-size:13pt;padding: 10px 325px 20px 325px"><strong>Цели и задачи:</strong></p>
+<ul type=“circle“ style="text-align:justify;font-size:15pt;padding: 0 350px 20px 350px">
+          <li>Да се ​​разработят педагогически практики в участващите институции чрез подпомагане на учителите в пре-проектиране на преподаването, използвайки принципите на триалогичния подход и съвременните цифрови технологии.</li>
+          <li>Да се подкрепи установяването на взаимни връзки и да се обогатят контактите между средните и висшите учебни заведения, както и между университетите и професионалните общности от индустрията, с цел да  се предоставят на учащите се автентични знания и работни практики.</li>
+          <li>Да се подкрепят учителите при оценяване, адатиране и прилагане на модерни онлайн учебни платформи, облачни инструменти за сътрудничество и социален софтуер в контекста на средно и висше образование.</li>
+          <li>Да се разработят ефективни модели за подкрепа на професионалното развитие на учителите в средните и висшите учебни заведения:  практики на взаимно обучение, виртуални работни срещи,  контакти  партньор към партньор, така че иновациите, педагогическите методи и технологии  да могат да се актуализират в ежедневната работа на учителите.</li>
+          <li>Да се създаде онлайн “Re-use” библиотека  от  разработени материали, така че учители, преподаватели и изследователи да споделят, използват  и подобряват  създадените педагогически сценарии и материали.</li>
+          <li>“Европеизиране” на учители и образование: подкрепа на европейска мрежа на учителите, така че да могат да се обменят добри практики и учителите да могат да се учат един от друг,  за да се намалят разликите в образованието между отделните страни като се обогатяват взаимно от наличното</li>
+        </ul>
+
+</body>
+</html>
