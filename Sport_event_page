@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> ELSYS </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style1.css">
+
+</head>
+<body >
+
+	<nav class="navbar navbar-inverse" role="navigation" style="margin:0">
+      	<div class="collapse navbar-collapse navbar-ex1-collapse">
+	        <ul class="nav navbar-nav">
+				<li><h4 style="font-size:150%;color:#FFFFFF"></h4>
+				<li><a href="mainpage.html" style="color:orange">Училище</a></li>
+				<li><a href="kraino2.html">Защо ТУЕС?</a></li>
+				<li><a href="kraino7.html">Прием</a></li>
+				<li><a href="kraino3.html">Съобщения</a></li>
+				<li><a href="kraino4.html">Блог</a></li>
+				<li><a href="kraino5.html">АЗТУЕС</a></li>
+	        </ul>
+      	</div>
+    </nav>
+<div class="background">
+ <div class="dropdown" >
+  <button class="dropbtn">Обучение</button>
+  <div class="dropdown-content">
+    <a href="obrazovanie.html">Образование</a>
+    <a href="http://www.elsys-bg.org/school/cisco/">CISCO академия</a>
+    <a href="http://www.elsys-bg.org/school/robotics/">Роботика</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">Съобщения</button>
+  <div class="dropdown-content">
+    <a href="http://www.elsys-bg.org/blog/article/i-engineer-march-2016/">„Аз, инженерът“ – Предстоящо събитие за любителите на технологиите</a>
+    <a href="http://www.elsys-bg.org/blog/article/hacktues/">HackTUES</a>
+    <a href="http://www.elsys-bg.org/blog/article/subd_exam_discussion/">Разговор за изпитите по СУБД на 12-ти клас на 22 април</a>
+  </div>
+</div>
+
+ <div class="dropdown">
+  <button class="dropbtn">Статии</button>
+  <div class="dropdown-content">
+    <a href="statii_sporten_praznik.html">Спортен празник - 19.05.2016</a>
+    <a href="http://www.elsys-bg.org/blog/article/sendaway-tues-tues-2016-graduatio/">Още едно цветно завършване – изпращане на випуск 2016</a>
+    <a href="http://www.elsys-bg.org/blog/article/tues-in-myouth-may-2016/">ТУЕС завладява сферата на мобилните приложения</a>
+  </div>
+</div>
+
+
+
+<div class="dropdown" style="">
+  <button class="dropbtn">Награди</button>
+  <div class="dropdown-content">
+    <a href="http://www.elsys-bg.org/blog/article/students-take-the-first-places-in-national-competition-in-computer-networks/">ТУЕС-арите грабнаха призовите места на Националното състезание по компютърни мрежи</a>
+    <a href="http://www.elsys-bg.org/blog/article/students-from-tues-went-to-top-10-on-the-national-championship-for-computer-networks/">Ученици от ТУЕС в топ 10 на националното състезание по компютърни мрежи</a>
+    <a href="http://www.elsys-bg.org/blog/article/first-try-third-plac%D0%B5/">Футболистите на ТУЕС печелят почетното трето място</a>
+  </div>
+</div>
+<!-- <img src="2.png" alt="Cinque Terre" width="200" height="200" style="padding: 200px 0 0 30px" align="middle"> -->
+
+
+
+<div class="dropdown">
+  <button class="dropbtn">Проекти</button>
+  <div class="dropdown-content">
+    <a href="http://www.elsys-bg.org/school/knork/">KNORK</a>
+    <a href="http://www.elsys-bg.org/school/oprr-2014-2020/">ОПРР 2014-2020</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">За нас</button>
+  <div class="dropdown-content">
+    <a href="http://www.elsys-bg.org/school/friends/">Приятели</a>
+    <a href="http://www.elsys-bg.org/school/contact/">Контакти</a>
+    <a href="http://www.elsys-bg.org/school/history-and-traditions/">История и традиции</a>
+  </div>
+</div>
+</div>
+
+
+<h1 style="text-align:center;font-size:175%; padding: 65px 250px 15px 250px">Спортен празник – 19.05.2016</h1>
+<center><img src="sport.png" alt="Cinque Terre" width="888" height="600" style="padding: 0px 0 10px 0" align="middle"></center>
+<p style="text-align:justify;font-size:13pt;padding: 10px 325px 20px 325px">Тази година на 19 май се проведе спортен празник в комплекса „Спортна София”. Поради хубавото време ученици от VIII до XI клас се събраха да премерят сили в дисциплините – футбол и тенис на маса.</p>
+<center><img src="sport1.png" alt="Cinque Terre" width="888" height="600" style="padding: 0px 0 10px 0" align="middle"></center>
+<p style="text-align:justify;font-size:13pt;padding: 10px 325px 20px 325px">След разясняването на правилата от съдията Нелсон Карапетян, мачът между X и XI клас започна.</p>
+<center><img src="sport2.png" alt="Cinque Terre" width="888" height="600" style="padding: 0px 0 10px 0" align="middle"></center>
+<p style="text-align:justify;font-size:13pt;padding: 10px 325px 20px 325px">Във футболният турнир участваха ученици от VIII до XI клас, като първото място бе завоювано от XI, а второ място заеха учениците от VIII клас. Докато някои хора се отдадоха на футболните страсти, други решиха да покажат класа в тенис на маса. И тази година спортният празник сплоти учениците от всички випуски на ТУЕС, създаде нови приятелства и ги амбицира да се справят по-добре следващата година.</p>
+
+
+</body>
+</html>
