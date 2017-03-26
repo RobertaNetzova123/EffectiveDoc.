@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> ELSYS </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style_hacktues.css">
+   
+</head>
+<body>
+ 
+    <nav class="navbar navbar-inverse" role="navigation" style="margin:0">
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <li><h4 style="font-size:150%;color:#FFFFFF"></h4>
+                <li><a href="kraino1.html" style="color:orange">Училище</a></li>
+                <li><a href="kraino2.html">Защо ТУЕС?</a></li>
+                <li><a href="kraino7.html">Прием</a></li>
+                <li><a href="kraino3.html">Съобщения</a></li>
+                <li><a href="kraino4.html">Блок</a></li>
+                <li><a href="kraino5.html">АЗТУЕС</a></li>
+            </ul>
+        </div>
+    </nav>
+<div class="background">
+ <div class="dropdown" >
+  <button class="dropbtn">Обучение</button>
+  <div class="dropdown-content">
+    <a href="http://www.elsys-bg.org/school/education/">Образование</a>
+    <a href="http://www.elsys-bg.org/school/cisco/">CISCO академия</a>
+    <a href="http://www.elsys-bg.org/school/robotics/">Роботика</a>
+  </div>
+</div>
+ 
+<div class="dropdown">
+  <button class="dropbtn">Съобщения</button>
+  <div class="dropdown-content">
+    <a href="http://www.elsys-bg.org/blog/article/i-engineer-march-2016/">„Аз, инженерът“ – Предстоящо събитие за любителите на технологиите</a>
+    <a href="http://www.elsys-bg.org/blog/article/hacktues/">HackTUES</a>
+    <a href="http://www.elsys-bg.org/blog/article/subd_exam_discussion/">Разговор за изпитите по СУБД на 12-ти клас на 22 април</a>
+  </div>
+</div>
+ 
+ <div class="dropdown">
+  <button class="dropbtn">Статии</button>
+  <div class="dropdown-content">
+    <a href="http://www.elsys-bg.org/blog/article/sports-fest-19-05-2016/">Спортен празник - 19.05.2016</a>
+    <a href="http://www.elsys-bg.org/blog/article/sendaway-tues-tues-2016-graduatio/">Още едно цветно завършване – изпращане на випуск 2016</a>
+    <a href="http://www.elsys-bg.org/blog/article/tues-in-myouth-may-2016/">ТУЕС завладява сферата на мобилните приложения</a>
+  </div>
+</div>
+ 
+ 
+ 
+<div class="dropdown" style="">
+  <button class="dropbtn">Награди</button>
+  <div class="dropdown-content">
+    <a href="http://www.elsys-bg.org/blog/article/students-take-the-first-places-in-national-competition-in-computer-networks/">ТУЕС-арите грабнаха призовите места на Националното състезание по компютърни мрежи</a>
+    <a href="http://www.elsys-bg.org/blog/article/students-from-tues-went-to-top-10-on-the-national-championship-for-computer-networks/">Ученици от ТУЕС в топ 10 на националното състезание по компютърни мрежи</a>
+    <a href="http://www.elsys-bg.org/blog/article/first-try-third-plac%D0%B5/">Футболистите на ТУЕС печелят почетното трето място</a>
+  </div>
+</div>
+<!-- <img src="2.png" alt="Cinque Terre" width="200" height="200" style="padding: 200px 0 0 30px" align="middle"> -->
+ 
+ 
+ 
+<div class="dropdown">
+  <button class="dropbtn">Проекти</button>
+  <div class="dropdown-content">
+    <a href="http://www.elsys-bg.org/school/knork/">KNORK</a>
+    <a href="http://www.elsys-bg.org/school/oprr-2014-2020/">ОПРР 2014-2020</a>
+  </div>
+</div>
+ 
+<div class="dropdown">
+  <button class="dropbtn">За нас</button>
+  <div class="dropdown-content">
+    <a href="http://www.elsys-bg.org/school/friends/">Приятели</a>
+    <a href="http://www.elsys-bg.org/school/contact/">Контакти</a>
+    <a href="http://www.elsys-bg.org/school/history-and-traditions/">История и традиции</a>
+  </div>
+</div>
+</div>
+
+<div class ="education">
+<svg>
+  <symbol id="s-text">
+    <text text-anchor="middle"
+          x="50%"
+          y="65%"
+          class="text--line"
+          >
+      Образование
+    </text>
+    
+  </symbol>
+  
+  <g class="g-ants">
+    <use xlink:href="#s-text"
+      class="text-copy"></use>     
+    <use xlink:href="#s-text"
+      class="text-copy"></use>     
+    <use xlink:href="#s-text"
+      class="text-copy"></use>     
+    <use xlink:href="#s-text"
+      class="text-copy"></use>     
+    <use xlink:href="#s-text"
+      class="text-copy"></use>     
+  </g>
+ </svg>
+ </div>
+<div class ="paragraph">
+ <p>В Технологично училище „Електронни системи” към Технически университет – София се подготвят средни специалисти в професионално направление  “Програмист” със специалност “Системно програмиране” и по професия “Техник на компютърни системи” с две специалности: „Компютърни мрежи” и „Компютърна техника и технологии”. Училището е с разширено изучаване на английски език.</p>
+
+<p>Учебните планове са съгласувани с Държавните образователни изисквания за съответните професии. Учебните програми са разработени от екипи преподаватели в ТУЕС, обсъдени и приети на Факултетен съвет на Факултета по “Електронна техника и технологии” в Техническия университет и утвърдени от Ректора на ТУ – София и Министерство на образованието и науката (МОН).</p>
+<p>Учебните програми по трите специалности са създадени така, че да се покриват всички изисквания за задължителната подготовка по общообразователните дисциплини.
+</p>
+<img class="photo" src="school.png">
+<p class="header">Общи и профилиращи дисциплини за всяка специалност</p>
+<p>През първите три години на специализираното професионално обучение по двете специалности се получават задълбочени знания в областта на техническите, компютърните науки и информационните технологии, като в учебния план са включени следните дисциплини: <p id="style">Електротехника и електрически измервания, Електронни елементи, Аналогова схемотехника, Импулсна и цифрова схемотехника, Основи на компютърните системи, Компютърни архитектури, Компютърна периферия, Микропроцесорни системи, Програмиране, Операционни системи, Приложни програмни системи, Програмиране на асемблерни езици, WEB дизайн, Компютърни мрежи и Комуникационна техника.</p></p>
+
+</div>
+ 
+ </body>
+</html>
